@@ -11,14 +11,10 @@ import './App.css'
 
 FocusStyleManager.onlyShowFocusOnTabs()
 
-/* TODO 
-make draw number
-*/
-
 // number of bingo boards the player will have
 const numBoards = 4
 // how quickly numbers are drawn (in ms)
-const drawTime = 20
+const drawTime = 1000
 
 class App extends Component {
   state = {
