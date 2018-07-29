@@ -1,5 +1,5 @@
 import { uniq } from 'lodash'
-import { generateBingoNumbers } from './utils'
+import { generateBingoNumbers } from '../utils'
 
 describe('test utils', () => {
   it('generates random non-repeating numbers', () => {
