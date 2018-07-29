@@ -1,0 +1,18 @@
+.bingo-board {
+  margin: 10px;
+  border-collapse: collapse;
+}
+
+.bingo-board-cell {
+  padding: 10px;
+  text-align: center;
+  color: #5c7080;
+  border: 1px solid #738694;
+  background: #ffffff;
+}
+
+.bingo-board-cell.called {
+  background: #2965cc;
+  border-color: #2965cc;
+  color: #ffffff;
+}

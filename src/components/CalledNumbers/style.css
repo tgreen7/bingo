@@ -1,0 +1,17 @@
+.called-numbers {
+  display: flex;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.called-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #2965cc;
+  border-radius: 50%;
+  color: #ffffff;
+  margin: 3px;
+}
