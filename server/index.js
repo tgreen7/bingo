@@ -41,3 +41,8 @@ function getNumber() {
 }
 
 app.listen(process.env.PORT || 8080)
+
+// Express only serves static assets in production
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+}

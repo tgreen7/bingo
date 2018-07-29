@@ -14,7 +14,7 @@ FocusStyleManager.onlyShowFocusOnTabs()
 // number of bingo boards the player will have
 const numBoards = 4
 // how quickly numbers are drawn (in ms)
-const drawTime = 1000
+const drawTime = 2000
 
 class App extends Component {
   state = {
